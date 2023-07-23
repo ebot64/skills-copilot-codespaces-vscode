@@ -64,6 +64,3 @@ app.get('/comments/:id', function (req, res) {
         res.json(result);
     });
 });
-
-// this is the server that is used to create the database and add comments
-// it is not used in the current version of the app
